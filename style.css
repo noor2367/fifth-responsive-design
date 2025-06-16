@@ -430,6 +430,49 @@
     margin-bottom: 20px;
     line-height: 30px;
 }
+/* six section code start here */
+.six-section{
+    padding: 60px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    max-width:800px;
+    margin:0px auto;
+}
+form h2{
+    font-size: 38px;
+    font-family: var(--standard-font-family);
+    text-align: center;
+    margin-bottom:40px;
+}
+.form-input{
+    width:500px;
+    padding:15px 20px;
+    border-radius: 5px;
+    outline: none;
+    background: none;
+    font-size:20px;
+}
+.form-btn{
+    width: 200px;
+    margin-left:30px;
+    background-color: #f79f6e;
+    color: white;
+    font-size:20px;
+    font-family: var(--regular-font-familiy);
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    padding:15px 0px;
+}
+.form-btn:hover{
+    background-color: #aacd72;
+}
+
+
 
 
 
@@ -555,6 +598,25 @@
         .five-section-content p{
         font-size:15px;
         }
+        /* form code start here */
+        form{
+        margin:0px 20px;
+        }
+        form h2{
+        font-size:22px;
+        font-family: var(--standard-font-family);
+        }
+        .form-input{
+            width: 100%;
+            padding: 12px 20px;
+            margin-bottom:20px;
+        }
+        .form-btn{
+            width: 100%;
+            font-size: 15px;
+            padding: 12px 0px;
+            margin-left: 0px;
+        }
         
     
         }
@@ -659,6 +721,18 @@
         }
         .five-section-content p{
         font-size:15px;
+        }
+        /* form code start here */
+        form h2{
+        font-size:23px;
+        font-family: var(--standard-font-family);
+        }
+        .form-input{
+        width:400px;
+        }
+        .form-btn{
+        width:200px;
+        font-size: 15px;
         }
         
 }

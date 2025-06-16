@@ -67,6 +67,7 @@
     font-size:25px;
     cursor: pointer;
     display: none;
+    color: black;
 }
 .menubar{
    display: flex;
@@ -379,9 +380,56 @@
     font-family: var(--regular-font-familiy);
     color: #3a3a3a;
 }
-
-
-
+/* five section code start here */
+.five-section{
+    background-color:#FFE5B4;
+    padding: 60px 10px 60px 10px;
+}
+.five-section-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+    gap: 40px;
+}
+.five-section-parent > *{
+    flex-basis: 100%;
+}
+.five-section-image-div{
+    width: 100%;
+    position: relative;
+}
+.five-section-image-div img{
+    width: 100%;
+    border-radius: 5px;
+}
+.five-section-image-div::before{
+    content: "";
+    width:95%;
+    height:95%;
+    border: 2px solid #f1f1f1;
+    position: absolute;
+    top:2.5%;
+    left:2.5%;
+    border-radius: 5px;
+}
+.five-section-text h2{
+    font-size:38px;
+    font-family: var(--standard-font-family);
+    margin-bottom: 20px;
+}
+.five-section-text h5{
+    font-size: 23px;
+    font-family: var(--standard-font-family);
+    margin-bottom: 20px;
+}
+.five-section-content p{
+    font-size:20px;
+    color: #3A3A3A;
+    font-family: var(--regular-font-familiy);
+    margin-bottom: 20px;
+    line-height: 30px;
+}
 
 
 
@@ -490,6 +538,24 @@
         font-family: var(--regular-font-familiy);
         color: #3a3a3a;
         }
+        /* five section code start here */
+        .five-section-parent{
+        display:flex;
+        flex-direction: column;
+        }
+        .five-section-image-div{
+        order:-1;
+        }
+        .five-section-text h2{
+        font-size:23px;
+        }
+        .five-section-text h5{
+        font-size: 20px;
+        }
+        .five-section-content p{
+        font-size:15px;
+        }
+        
     
         }
 @media only screen and (min-width:689px) and (max-width:1099px){
@@ -577,4 +643,22 @@
         font-family: var(--regular-font-familiy);
         color: #3a3a3a;
         }
+        /* five section code start here */
+        .five-section-parent{
+        display:flex;
+        flex-direction: column;
+        }
+        .five-section-image-div{
+        order:-1;
+        }
+        .five-section-text h2{
+        font-size:23px;
+        }
+        .five-section-text h5{
+        font-size: 20px;
+        }
+        .five-section-content p{
+        font-size:15px;
+        }
+        
 }

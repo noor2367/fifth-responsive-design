@@ -471,8 +471,54 @@ form h2{
 .form-btn:hover{
     background-color: #aacd72;
 }
-
-
+/* footer section code start here */
+footer{
+    background-color: #033330;
+    padding: 60px 20px 10px 10px;
+}
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.single-footer-iteam h6{
+    font-size: 20px;
+    font-family: var(--standard-font-family);
+    color: #DAEDED;
+    margin-bottom: 40px;
+}
+.single-footer-iteam h6::after{
+    content: "";
+    width: 80px;
+    height:3px;
+    background-color:var(--ast-global-color-5);
+    display:block;
+    margin:30px 0px;
+}
+.single-footer-iteam ul li{
+    list-style-position: inside;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.single-footer-iteam ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: var(--regular-font-familiy);
+    color:var(--ast-global-color-5);
+}
+.single-footer-iteam ul li a span i{
+    margin-right: 8px;
+}
+.social-icon a{
+    background-color: #f79f6e;
+    padding:12px 15px;
+    border-radius: 5px;
+    font-size:25px;
+    color: white;
+    margin-right: 8px;
+    display: inline-block;
+}
 
 
 
@@ -617,6 +663,24 @@ form h2{
             padding: 12px 0px;
             margin-left: 0px;
         }
+        /* footer section code start here */
+        .footer-parent{
+            display:block;
+        }
+        .single-footer-iteam h6{
+        font-size:18px;
+        }
+        .single-footer-iteam{
+        margin-bottom:40px;
+        }
+        .single-footer-iteam ul li a{
+        font-size:15px;
+        }
+        .social-icon a{
+        padding:9px 12px;
+         font-size:20px;
+        }
+        
         
     
         }
@@ -733,6 +797,20 @@ form h2{
         .form-btn{
         width:200px;
         font-size: 15px;
+        }
+        /* footer section code start here */
+        .footer-parent{
+        display:flex;
+        }
+        .single-footer-iteam h6{
+        font-size:18px;
+        }
+        .single-footer-iteam ul li a{
+        font-size:15px;
+        }
+        .social-icon a{
+        padding:9px 12px;
+         font-size:20px;
         }
         
 }

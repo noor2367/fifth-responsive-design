@@ -161,7 +161,7 @@
 .about-section-parent{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:top;
     gap: 40px;
     margin: 0px 20px;
 }

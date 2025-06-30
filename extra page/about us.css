@@ -200,7 +200,6 @@
 .about-single-text li{
     font-size: 16px;
     font-family:var(--regular-font-familiy);
-    margin-bottom: 8px;
 }
 .about-single-text span{
     font-weight: bold;

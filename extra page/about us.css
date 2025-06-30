@@ -130,8 +130,8 @@
     background-color: var(--ast-global-color-1);
 }
 .hero-section{
-    height: 100vh;
-    background-image: url(../image/diverse-wellness-providers-lifestyle-clini-ac.jpg);
+    height:70vh;
+    background-image: url(../image/young-handsome-physician-medical-robe-with-stethoscope.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; 
@@ -141,43 +141,67 @@
     padding: 10px;
 }
 .hero-text{
-    width:54%;
+    width:100%;
     margin-top: 70px;
     padding: 30px;
-    background-color:rgba(255, 255, 255, 0.845);
     border-radius: 5px;
+    text-align: center;
 }
 .hero-text h1{
     font-size: 45px;
+    color: #FFFFFF;
     margin-bottom:10px;
     font-family: var(--standard-font-family);
 }
-.hero-text span{
-    color:#01544F;
+/* main section code start here */
+/* about section */
+.about-section{
+    padding: 70px 10px;
 }
-.hero-text h4{
-    font-size: 28px;
-    margin-bottom: 10px;
+.about-section-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 0px 20px;
+}
+.about-section-parent > *{
+    flex-basis: 100%;
+}
+.about-img-div{
+    width: 100%;
+}
+.about-img-div img{
+    width: 100%;
+    border-radius:5px;
+}
+.about-text-div h2{
+    font-size: 38px;
     font-family: var(--standard-font-family);
+    margin-bottom: 20px;
 }
-.hero-text p{
-    font-size:20px;
-    font-family: var(--regular-font-familiy);
-    margin-bottom: 10px;
+.about-text-div h5{
+    font-size: 23px;
+    color: #01544F;
+    font-family: var(--standard-font-family);
+    margin-bottom: 20px;
 }
-.learn-btn{
-    display: inline-block;
-    padding:14px 36px;
-    background-color: #f79f6e;
-    text-decoration: none;
-    border-radius:30px;
-    color: var(--ast-global-color-4);
-    transition: 0.5s;
-    font-size:18px;
-    font-family: var(--regular-font-familiy);
-    letter-spacing: 0.1em;
-    margin-top: 10px;
+.about-single-text p{
+    color: #3a3a3a;
+    font-family:var(--regular-font-familiy);
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 28px;
 }
-.learn-btn:hover{
-    background-color: var(--ast-global-color-1);
+.about-single-text ul{
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+.about-single-text li{
+    font-size: 18px;
+    font-family:var(--regular-font-familiy);
+    margin-bottom: 8px;
+}
+.about-single-text span{
+    font-weight: bold;
 }

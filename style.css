@@ -800,10 +800,14 @@ footer{
         }
         /* footer section code start here */
         .footer-parent{
-        display:flex;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
         }
         .single-footer-iteam h6{
         font-size:18px;
+        }
+        .single-footer-iteam{
+        margin-bottom:60px;
         }
         .single-footer-iteam ul li a{
         font-size:15px;
